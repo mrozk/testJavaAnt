@@ -40,7 +40,10 @@
  	</target>
  	<target name="deploy" depends="war">
  		<exec executable="${asadmin.path}asadmin">
- 			<arg line="deploy --contextroot /GlassfishDeployment  /home/mrozk/workbench/kepler/WebAppAnt/dist/AntExample.war" ></arg>
+ 		 			<arg line="undeploy  AntExample" ></arg>
+ 		</exec>
+ 		<exec executable="${asadmin.path}asadmin">
+ 			<arg line="deploy --contextroot /GlassfishDeployment  dist/AntExample.war" ></arg>
  		 </exec>
  	</target>
  	<target name="clean">
