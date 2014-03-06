@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AppBuilder" default="deploy" basedir="..">
+    
+	<property file="ant/build.properties"/>
+	
+	
+	
+		
+ 	<path id="compile.classpath">
+ 		 	<fileset dir="WebContent/WEB-INF/lib">
+ 		 		<include name="*.jar"/>
+ 		 	</fileset>
+ 	</path>
+ 	
+ 	
+ 	<target name="init">
+	 	<mkdir dir="${dir.class}"/>
+	 	<mkdir dir="dist" />
+ 	</target>
+ 	
+ 	
+ 	
+ 	<target name="compile" depends="init" >
+	 	<javac destdir="${dir.class}" debug="true" srcdir="src">
+	 		<classpath refid="compile.classpath"/>
+	 	</javac>
+ 	</target>
+ 	
+ 	<target name="war" depends="compile">
+	 	<war destfile="dist/AntExample.war" webxml="WebContent/WEB-INF/web.xml">
+		 	<fileset dir="WebContent"/>
+		 	<lib dir="WebContent/WEB-INF/lib"/>
+		 	<classes dir="${dir.class}"/>
+	 	</war>
+ 		
+ 		
+ 		
+ 		
+ 		
+ 	</target>
+ 	<target name="deploy" depends="war">
+ 		<exec executable="${asadmin.path}asadmin">
+ 			<arg line="deploy --contextroot /GlassfishDeployment  /home/mrozk/workbench/kepler/WebAppAnt/dist/AntExample.war" ></arg>
+ 		 </exec>
+ 	</target>
+ 	<target name="clean">
+	 	<delete dir="dist" />
+	 	<delete dir="build" />
+ 	</target>
+ 	
+ </project>
