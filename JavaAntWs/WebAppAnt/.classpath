@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk7">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_25">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
@@ -12,5 +12,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-themes-7.1.11.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-theme-compiler-7.1.11.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-shared-7.1.11.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-server-7.1.11.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-client-compiler-7.1.11.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-client-compiled-7.1.11.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-client-7.1.11.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
