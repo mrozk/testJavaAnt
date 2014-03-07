@@ -14,10 +14,21 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-themes-7.1.11.jar"/>
 	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-theme-compiler-7.1.11.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-slf4j-jdk14-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-shared-deps-1.0.2.jar"/>
 	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-shared-7.1.11.jar"/>
 	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-server-7.1.11.jar"/>
-	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-client-compiler-7.1.11.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-push-7.1.11.jar"/>
 	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-client-compiled-7.1.11.jar"/>
-	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/vaadin-client-7.1.11.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/jsoup-1.6.3.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/cssparser-0.9.5.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/commons-jexl-2.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/atmosphere-runtime-1.0.18.vaadin1.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/atmosphere-compat-tomcat-1.0.18.vaadin1.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/atmosphere-compat-tomcat7-1.0.18.vaadin1.jar"/>
+	<classpathentry kind="lib" path="/home/mrozk/git/testJavaAnt/JavaAntWs/WebAppAnt/WebContent/WEB-INF/lib/atmosphere-compat-jbossweb-1.0.18.vaadin1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
