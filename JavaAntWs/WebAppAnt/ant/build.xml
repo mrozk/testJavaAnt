@@ -48,13 +48,13 @@
  		 			<arg line="undeploy  WebAppAnt" ></arg>
  		</exec>
  		<exec executable="${asadmin.path}asadmin">
- 			<arg line="deploy --name ozk dist/WebAppAnt.war" ></arg>
+ 			<arg line="deploy  dist/WebAppAnt.war" ></arg>
  		 </exec>
  	</target>
  	<target name="clean">
 	 	<delete dir="dist" />
 	 	<delete dir="build" />
- 		<delete dir="${webinfroot}lib/" />
+ 		
  		
  	</target>
  	
