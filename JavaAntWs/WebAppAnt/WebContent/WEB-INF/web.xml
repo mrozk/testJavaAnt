@@ -25,7 +25,22 @@
 	    </init-param>
   </servlet>
   
+   <servlet>
+    <servlet-name>myservlet2</servlet-name>
+	    <servlet-class>
+	        com.vaadin.server.VaadinServlet
+	    </servlet-class>
+	    <init-param>
+	      <param-name>UI</param-name>
+	      <param-value>com.aplant.ws.vaadin.MyHierarchicalUI.MyHierarchicalUI</param-value>
+	    </init-param>
+  </servlet>
   
+     <servlet-mapping>
+	    <servlet-name>myservlet2</servlet-name>
+	    <url-pattern>/second/*</url-pattern>
+	 </servlet-mapping>
+  		
 	  <servlet-mapping>
 	    <servlet-name>myservlet</servlet-name>
 	    <url-pattern>/*</url-pattern>
