@@ -21,7 +21,7 @@
 	    </servlet-class>
 	    <init-param>
 	      <param-name>UI</param-name>
-	      <param-value>com.aplant.ws.vaadin.HelloWorld</param-value>
+	      <param-value>com.aplant.ws.vaadin.LotResolver</param-value>
 	    </init-param>
   </servlet>
   
@@ -36,6 +36,17 @@
 	    </init-param>
   </servlet>
   
+     <servlet>
+    <servlet-name>navigation</servlet-name>
+	    <servlet-class>
+	        com.vaadin.server.VaadinServlet
+	    </servlet-class>
+	    <init-param>
+	      <param-name>UI</param-name>
+	      <param-value>com.aplant.ws.vaadin.NavigatorUI</param-value>
+	    </init-param>
+  </servlet>
+  
      <servlet-mapping>
 	    <servlet-name>myservlet2</servlet-name>
 	    <url-pattern>/second/*</url-pattern>
@@ -44,6 +55,11 @@
 	  <servlet-mapping>
 	    <servlet-name>myservlet</servlet-name>
 	    <url-pattern>/*</url-pattern>
+	 </servlet-mapping>
+	 
+	 <servlet-mapping>
+	    <servlet-name>navigation</servlet-name>
+	    <url-pattern>/navigation/*</url-pattern>
 	 </servlet-mapping>
 	 
 	 	

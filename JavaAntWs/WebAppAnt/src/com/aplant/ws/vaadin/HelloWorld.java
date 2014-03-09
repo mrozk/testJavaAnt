@@ -6,7 +6,6 @@ import com.vaadin.data.Property.ValueChangeEvent;
 import com.vaadin.data.Property.ValueChangeListener;
 import com.vaadin.data.util.FilesystemContainer;
 import com.vaadin.data.util.TextFileProperty;
-import com.vaadin.event.MouseEvents.ClickEvent;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.shared.ui.label.ContentMode;
 import com.vaadin.ui.Button;
@@ -33,7 +32,7 @@ public class HelloWorld  extends UI  {
 			
 			@Override
 			public void buttonClick(com.vaadin.ui.Button.ClickEvent event) {
-				 button.setCaption("You pushed it!");
+				// button.setCaption("You pushed it!");
 				
 			}
 
@@ -48,6 +47,8 @@ public class HelloWorld  extends UI  {
 		setContent(split);
 		split.addComponent(docList);
 		
+		//addWindow(new SMSWindow());
+		
 		HorizontalLayout hl = new HorizontalLayout();
 		hl.addComponent(button);
 		hl.addComponent(docView);
@@ -61,5 +62,8 @@ public class HelloWorld  extends UI  {
 			}
 		});
 		docList.setImmediate(true);
+		
+		
+		
     }
 }

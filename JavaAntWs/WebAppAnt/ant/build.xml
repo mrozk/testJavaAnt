@@ -44,6 +44,7 @@
 		<copy todir="${webinfroot}lib/">
 			<fileset dir="libraries/vaadin/" />
 			<fileset dir="libraries/quartz/" />
+			<fileset dir="libraries/vaadinvebapp/" />
 		</copy>
 		<echo>${dir.class}</echo>
 		<copy todir="${dir.class}">
