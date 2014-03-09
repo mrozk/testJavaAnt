@@ -5,10 +5,15 @@
 	
 	
  	<path id="compile.classpath">
- 		 	<fileset dir="libraries/vaadin/">
- 		 		<include name="*.jar"/>
+ 		 	<fileset dir="libraries/">
+ 		 		<include name="**/*.jar"/>
  		 	</fileset>
  	</path>
+	
+	<fileset
+	    id="propertyfiles" 
+	    dir="properties"
+	    /> 
 	
 	
  	<target name="init" depends="clean">
@@ -35,9 +40,14 @@
  	</target>
 	
 	
-	<target name="copy">
+	<target name="copy" depends="compile">
 		<copy todir="${webinfroot}lib/">
 			<fileset dir="libraries/vaadin/" />
+			<fileset dir="libraries/quartz/" />
+		</copy>
+		<echo>${dir.class}</echo>
+		<copy todir="${dir.class}">
+			<fileset refid="propertyfiles" />
 		</copy>
 	</target>
 	
